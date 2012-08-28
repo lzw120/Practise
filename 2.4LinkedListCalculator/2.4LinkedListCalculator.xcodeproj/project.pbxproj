@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079F6FB815E28B5E00FEE672 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079F6FB715E28B5E00FEE672 /* main.cpp */; };
+		079F6FBA15E28B5E00FEE672 /* __4LinkedListCalculator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 079F6FB915E28B5E00FEE672 /* __4LinkedListCalculator.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		079F6FB115E28B5E00FEE672 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				079F6FBA15E28B5E00FEE672 /* __4LinkedListCalculator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		079F6FB315E28B5E00FEE672 /* 2.4LinkedListCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2.4LinkedListCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		079F6FB715E28B5E00FEE672 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		079F6FB915E28B5E00FEE672 /* __4LinkedListCalculator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = __4LinkedListCalculator.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079F6FB015E28B5E00FEE672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079F6FA815E28B5E00FEE672 = {
+			isa = PBXGroup;
+			children = (
+				079F6FB615E28B5E00FEE672 /* 2.4LinkedListCalculator */,
+				079F6FB415E28B5E00FEE672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079F6FB415E28B5E00FEE672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079F6FB315E28B5E00FEE672 /* 2.4LinkedListCalculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079F6FB615E28B5E00FEE672 /* 2.4LinkedListCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				079F6FB715E28B5E00FEE672 /* main.cpp */,
+				079F6FB915E28B5E00FEE672 /* __4LinkedListCalculator.1 */,
+			);
+			path = 2.4LinkedListCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079F6FB215E28B5E00FEE672 /* 2.4LinkedListCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079F6FBD15E28B5E00FEE672 /* Build configuration list for PBXNativeTarget "2.4LinkedListCalculator" */;
+			buildPhases = (
+				079F6FAF15E28B5E00FEE672 /* Sources */,
+				079F6FB015E28B5E00FEE672 /* Frameworks */,
+				079F6FB115E28B5E00FEE672 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2.4LinkedListCalculator;
+			productName = 2.4LinkedListCalculator;
+			productReference = 079F6FB315E28B5E00FEE672 /* 2.4LinkedListCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079F6FAA15E28B5E00FEE672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Zewen Li";
+			};
+			buildConfigurationList = 079F6FAD15E28B5E00FEE672 /* Build configuration list for PBXProject "2.4LinkedListCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 079F6FA815E28B5E00FEE672;
+			productRefGroup = 079F6FB415E28B5E00FEE672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079F6FB215E28B5E00FEE672 /* 2.4LinkedListCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079F6FAF15E28B5E00FEE672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079F6FB815E28B5E00FEE672 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		079F6FBB15E28B5E00FEE672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		079F6FBC15E28B5E00FEE672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		079F6FBE15E28B5E00FEE672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		079F6FBF15E28B5E00FEE672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079F6FAD15E28B5E00FEE672 /* Build configuration list for PBXProject "2.4LinkedListCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F6FBB15E28B5E00FEE672 /* Debug */,
+				079F6FBC15E28B5E00FEE672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079F6FBD15E28B5E00FEE672 /* Build configuration list for PBXNativeTarget "2.4LinkedListCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F6FBE15E28B5E00FEE672 /* Debug */,
+				079F6FBF15E28B5E00FEE672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079F6FAA15E28B5E00FEE672 /* Project object */;
+}
